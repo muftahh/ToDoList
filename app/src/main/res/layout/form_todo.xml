@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:background="@color/yellow">
+
+    <EditText
+        android:id="@+id/form_nama_kegiatan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="@string/Input_Name_ToDo"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/architects_daughter"
+        />
+
+    <Button
+        android:id="@+id/form_b_tambah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/architects_daughter"
+        android:text="Tambah Kegiatan"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/dark_blue"
+        />
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/beige"
+    android:paddingTop="8dp">
+
+
+    <TextView
+        android:id="@+id/tv_nama_kegiatan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Name_ToDo"
+        android:textSize="20sp"
+        android:fontFamily="@font/architects_daughter"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="20sp"
+        />
+
+    <ImageButton
+        android:id="@+id/b_hapus"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/delete_button"
+        />
+
+</LinearLayout>
